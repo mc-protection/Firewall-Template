@@ -1,14 +1,7 @@
 #!/usr/bin/env bash
 
-#Reset rules script by Gaetan. Add discord: 'Gaetan#0099' to get help.
-
-echo "Reset loading..."
-
-#------------------------------------------------------------------------------------------
-#Variable
-
+# Variable
 IPTABLES="sudo iptables" # The location of iptables
-#------------------------------------------------------------------------------------------
  
 # Reset the rules
 $IPTABLES -t filter -F 
